@@ -8,7 +8,7 @@ Literature search and analysis.
 
 | Path | What |
 |---|---|
-| `./rioplatense-anki.md` | Main deck context: card types, generation rules, tagging taxonomy. Compiled via context-compiler before card generation. |
+| `./rioplatense-anki.md` | Main deck context: card types, generation rules, tagging taxonomy. Compiled via DAFNE before card generation. |
 | `./focus_area.md` | Rioplatense dialect criteria (voseo, Argentine vocabulary). Injected into card generation and used as the sole extraction context for youtube-extract. |
 | `./deck_quality_bootstrapping/` | deck quality & efficiency analysis at a certain snapshot |
 | `./reading-log/context.md` | Reading-log area — mem-bank for reading session history. Curating literature, discussing about reading journey |

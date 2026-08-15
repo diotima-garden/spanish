@@ -1,0 +1,6 @@
+*.preprocessed.md
+*.compiled.md
+*.md.feedback.jsonl
+small-bank.md
+youtube-phrases.txt
+*.apkg

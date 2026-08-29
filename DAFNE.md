@@ -28,7 +28,3 @@ analysis.
 | `./deck_quality_bootstrapping/` | Deck quality & efficiency analysis snapshots |
 | `./files/` | Source PDFs and reference material |
 | `./backups/` | Anki deck backups (`.apkg`, gitignored — restore from AnkiWeb if lost) |
-
-This `banks:` config is a placeholder scaffold — the live subscription source of
-truth remains `groves/mem-bank-subscriptions.json` in the monorepo until Phase 3
-of the DAFNE execution plan wires mem-bank to read it from here.

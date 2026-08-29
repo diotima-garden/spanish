@@ -1,6 +1,5 @@
 ---
 format: 0
-requires: []
 banks:
   - name: spanish-reading
     bank: ./reading-log

@@ -8,22 +8,19 @@ banks:
       - "reading-log/context\\.md"
 ---
 
-# spanish — Rioplatense Spanish grove
-
-A **grove**: a DAFNE node carrying memory (the banks above). The
-grove-ness is inferred structurally from the bank declaration — there is
-no `type:` field. One parent: `parents/language`.
+# Spanish Grove
 
 Rioplatense Spanish (Argentine/River Plate dialect) knowledge enclave.
-Anki card specification and overall progression. Literature search and
-analysis.
+Anki card specification and overall progression.
+Literature search and analysis.
 
-| File | What |
+## Files in this area
+
+| Path | What |
 |---|---|
-| `./rioplatense-anki.md` | Main deck context — compiled via DAFNE before card generation |
-| `./focus_area.md` | Rioplatense dialect criteria (voseo, Argentine vocabulary) |
-| `./resources.md` | Source material and reference links |
-| `./reading-log/` | mem-bank: reading session history |
-| `./deck_quality_bootstrapping/` | Deck quality & efficiency analysis snapshots |
-| `./files/` | Source PDFs and reference material |
-| `./backups/` | Anki deck backups (`.apkg`, gitignored — restore from AnkiWeb if lost) |
+| `./rioplatense-anki.md` | Main deck context: card types, generation rules, tagging taxonomy. Compiled via DAFNE before card generation. |
+| `./focus_area.md` | Rioplatense dialect criteria (voseo, Argentine vocabulary). Injected into card generation and used as the sole extraction context for youtube-extract. |
+| `./deck_quality_bootstrapping/` | deck quality & efficiency analysis at a certain snapshot |
+| `./reading-log/context.md` | Reading-log area — mem-bank for reading session history. Curating literature, discussing about reading journey |
+| `./files/` | Media files (PDFs, etc.) referenced by cards or resources. |
+| `./backups/` | Deck backup archives (.apkg). |

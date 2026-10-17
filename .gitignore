@@ -4,3 +4,5 @@
 small-bank.md
 youtube-phrases.txt
 *.apkg
+files/*
+!files/.gitkeep
